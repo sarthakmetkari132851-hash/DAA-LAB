@@ -31,3 +31,12 @@ The program implements Heap Sort using a Max-Heap. It takes input from the user,
 # Conclusion
 
 Heap Sort is an efficient sorting algorithm with O(n log n) time complexity in the best, average, and worst cases. It is useful for sorting large datasets with low extra memory usage.
+#
+# PRACTICAL-4
+# Summary
+
+The program calculates the factorial of a non-negative integer using two methods: iterative and recursive. It takes input from the user, calculates the factorial using both approaches, and measures their execution time in nanoseconds. The results are then displayed for comparison.
+
+# Conclusion
+
+Both iterative and recursive methods produce the same factorial result and have O(n) time complexity. The iterative method requires O(1) space, while the recursive method requires O(n) space because of recursive function calls. Therefore, the iterative approach is generally more memory-efficient.
