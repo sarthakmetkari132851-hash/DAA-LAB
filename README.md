@@ -40,3 +40,12 @@ The program calculates the factorial of a non-negative integer using two methods
 # Conclusion
 
 Both iterative and recursive methods produce the same factorial result and have O(n) time complexity. The iterative method requires O(1) space, while the recursive method requires O(n) space because of recursive function calls. Therefore, the iterative approach is generally more memory-efficient.
+#
+# PRACTICAL-7
+# Summary
+
+The Making Change Problem can be efficiently solved using Dynamic Programming. The algorithm stores the minimum number of coins required for every amount from 0 to the target amount. By reusing these previously calculated results, it avoids solving the same subproblem repeatedly and finds the optimal solution.
+
+# Conclusion
+
+Dynamic Programming provides an efficient and systematic solution to the Making Change Problem. Compared with a simple recursive approach, it reduces repeated calculations and improves performance. The algorithm has O(n × A) time complexity and O(A) space complexity, making it suitable for solving larger coin-change problems efficiently.
