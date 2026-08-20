@@ -22,3 +22,12 @@ The programs also demonstrate the time and space complexity of both searching te
 
 From the practical, it can be concluded that Binary Search is more efficient than Linear Search when the data is sorted, especially when the number of elements is large. Linear Search is simpler and can be used with unsorted data, but its searching time increases as the number of elements increases.
 Binary Search reduces the search space by half in every iteration, resulting in O(log n) time complexity. Therefore, Linear Search is suitable for small or unsorted datasets, while Binary Search is preferred for large and sorted datasets.
+#
+# PRACTICAL-3
+# Summary
+
+The program implements Heap Sort using a Max-Heap. It takes input from the user, sorts the elements, displays the sorted array, and calculates the execution time.
+
+# Conclusion
+
+Heap Sort is an efficient sorting algorithm with O(n log n) time complexity in the best, average, and worst cases. It is useful for sorting large datasets with low extra memory usage.
