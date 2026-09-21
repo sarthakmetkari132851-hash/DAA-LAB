@@ -40,7 +40,20 @@ The program calculates the factorial of a non-negative integer using two methods
 # Conclusion
 
 Both iterative and recursive methods produce the same factorial result and have O(n) time complexity. The iterative method requires O(1) space, while the recursive method requires O(n) space because of recursive function calls. Therefore, the iterative approach is generally more memory-efficient.
-#
+
+# PRACTICAL-5
+# Summary
+This program implements the 0/1 Knapsack Problem using Dynamic Programming. It uses five items with predefined weights and values and a knapsack capacity of 9. The DP table stores the maximum value possible for different capacities. Each item is either selected or not selected to obtain the best possible value.
+
+# Conclusion
+The program successfully finds the maximum value of 21 without exceeding the given capacity. Dynamic Programming provides an effective method to find the optimal combination of items while ensuring that each item is selected at most once.
+
+# PRACTICAL-6
+# Summary
+This program implements the Matrix Chain Multiplication problem using Dynamic Programming. It uses four matrices with fixed dimensions: A1 (10×20), A2 (20×30), A3 (30×40). The dp table stores the minimum number of scalar multiplications required to multiply different groups of matrices. The program checks all possible ways of dividing the matrix chain and selects the order that requires the minimum number of operations.
+
+# Conclusion
+The program successfully finds the optimal order for multiplying the given matrices using Dynamic Programming. It calculates that the minimum number of scalar multiplications required is 2,000. This approach helps avoid unnecessary calculations and provides an efficient way to determine the best multiplication order for a chain of matrices.
 # PRACTICAL-7
 # Summary
 
