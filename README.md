@@ -54,6 +54,7 @@ This program implements the Matrix Chain Multiplication problem using Dynamic Pr
 
 # Conclusion
 The program successfully finds the optimal order for multiplying the given matrices using Dynamic Programming. It calculates that the minimum number of scalar multiplications required is 2,000. This approach helps avoid unnecessary calculations and provides an efficient way to determine the best multiplication order for a chain of matrices.
+
 # PRACTICAL-7
 # Summary
 
@@ -62,3 +63,11 @@ The Making Change Problem can be efficiently solved using Dynamic Programming. T
 # Conclusion
 
 Dynamic Programming provides an efficient and systematic solution to the Making Change Problem. Compared with a simple recursive approach, it reduces repeated calculations and improves performance. The algorithm has O(n × A) time complexity and O(A) space complexity, making it suitable for solving larger coin-change problems efficiently.
+
+# PRACTICAL-8
+# Summary
+
+This program implements a Graph using an adjacency list in C++. The Graph class stores vertices and their connections. The addEdge() function adds connections between vertices. Two graph searching techniques are implemented: DFS (Depth First Search) using recursion and BFS (Breadth First Search) using a queue. The program creates a graph with 6 vertices and displays both DFS and BFS traversals starting from vertex 0.
+
+# Conclusion
+The program successfully demonstrates the implementation of a graph and its two important searching techniques, DFS and BFS. DFS explores the graph deeply using recursion, while BFS explores nodes level by level using a queue. Both algorithms have a time complexity of O(V + E) and are useful for graph traversal and searching problems.
