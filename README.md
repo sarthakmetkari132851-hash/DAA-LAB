@@ -86,3 +86,17 @@ The MST has 9 − 1 = 8 edges and a total weight of 37.
 The rejected edges total 56, and 37 + 56 = 93, which equals the sum of all 14 edge weights.
 A tie between A-H and B-C (both 8) means more than one MST is possible, but all of them weigh 37.
 Prim's algorithm needs a connected graph.
+
+# PRACTICAL-10
+# Summary
+
+Kruskal's algorithm is a greedy algorithm used to find a **Minimum Spanning Tree (MST)** of a connected, weighted, undirected graph. It starts by sorting all the edges in increasing order of their weights and repeatedly selects the smallest edge that does not form a cycle. The selected edges are added to the MST until all vertices are connected.
+
+For the example graph with **4 nodes A, B, C, and D**, the edges are: A-B (10), A-C (6), A-D (5), B-D (15), and C-D (4). After sorting the edges by weight, Kruskal's algorithm selects: **C-D (4), A-D (5), and A-B (10)**. The rejected edges are **A-C (6)** and **B-D (15)** because they would create cycles with the already selected edges.
+
+# Conclusion
+
+The MST has **4 − 1 = 3 edges** and a total weight of **19**. The selected MST edges are **C-D (4), A-D (5), and A-B (10)**. The rejected edges are **A-C (6)** and **B-D (15)** because adding them would create a cycle.
+The total weight of all 5 edges is **40**, while the MST has a minimum total weight of **19**. Kruskal's algorithm successfully connects all the vertices with the minimum possible cost and without forming any cycles.
+Kruskal's algorithm uses the **Union-Find technique** to detect cycles efficiently. It is especially useful for **sparse graphs** and has a time complexity of **O(E log E)** because the edges must first be sorted. The algorithm requires a connected graph to produce a complete Minimum Spanning Tree.
+
