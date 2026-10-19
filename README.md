@@ -100,3 +100,11 @@ The MST has **4 − 1 = 3 edges** and a total weight of **19**. The selected MST
 The total weight of all 5 edges is **40**, while the MST has a minimum total weight of **19**. Kruskal's algorithm successfully connects all the vertices with the minimum possible cost and without forming any cycles.
 Kruskal's algorithm uses the **Union-Find technique** to detect cycles efficiently. It is especially useful for **sparse graphs** and has a time complexity of **O(E log E)** because the edges must first be sorted. The algorithm requires a connected graph to produce a complete Minimum Spanning Tree.
 
+# PRACTICAL-11
+# Summary
+
+The Floyd–Warshall algorithm is a dynamic programming algorithm used to find the shortest paths between all pairs of vertices in a weighted graph. It repeatedly updates the distance matrix by checking whether a path through an intermediate vertex is shorter than the existing path. It supports negative edge weights but not negative-weight cycles when meaningful shortest-path distances are required. Its time complexity is \\(O(V^3)\\), and its space complexity is \\(O(V^2)\\).
+
+# Conclusion
+
+The Floyd–Warshall algorithm is a simple and effective method for solving the all-pairs shortest-path problem. It is useful in network routing, transportation systems, and graph analysis. By using a distance matrix and three nested loops, it finds the shortest distances between every pair of vertices.
