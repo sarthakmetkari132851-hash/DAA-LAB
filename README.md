@@ -108,3 +108,9 @@ The Floyd–Warshall algorithm is a dynamic programming algorithm used to find t
 # Conclusion
 
 The Floyd–Warshall algorithm is a simple and effective method for solving the all-pairs shortest-path problem. It is useful in network routing, transportation systems, and graph analysis. By using a distance matrix and three nested loops, it finds the shortest distances between every pair of vertices.
+
+# PRACTICAL-12
+# Summary
+The Traveling Salesman Problem (TSP) is an optimization problem in which a salesman must visit every city exactly once and return to the starting city with minimum travel cost. The program uses recursion and backtracking to explore possible routes and calculate the minimum cost. For the given four-city example, the minimum travel cost is 80.
+# Conclusion
+The Traveling Salesman Problem demonstrates how algorithms can be used to solve route optimization problems. The C program finds the minimum-cost tour by examining all possible valid routes. This approach is suitable for small numbers of cities, but its time complexity grows factorially, approximately \(O(N!)\), making it inefficient for large problems.
